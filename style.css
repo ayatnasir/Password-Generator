@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100;200;300;400;600&display=swap');
+
+
+body {
+   background-color: rgb(26, 26, 50);
+    font-family: 'Anek Devanagari', sans-serif;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6rem;
+    border: 5px solid #ffffff;
+    background-color: rgb(40, 40, 70);
+    color: white;
+    width: 40%;
+    height: 50vh;
+    padding: 4rem;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+.top-part {
+    margin-left: 2rem;
+    border-bottom: 2px solid #374142;
+    height: 40vh;
+}
+
+.top-part p {
+    font-weight: lighter;
+}
+
+.second-title {
+    color: #11916a;
+}
+
+.passwords {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 1rem;
+}
+
+#password-one, #password-two {
+    background-color: #1b3637;
+    color:#11916a;
+    padding: 0.5rem;
+    width: 25%;
+    font-size: 1.05rem;
+    text-align: center;
+ }
+
+ button {
+    background-color: #11916a;
+    color:#fdfdfd;
+    border: 2px solid #2d3131;
+    padding: 0.5rem;
+    border-radius: 10px;
+ }
